@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.API", "BoardGames.API\BoardGames.API.csproj", "{18AB50C6-3E92-4A9E-94A3-BB72BC06B31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Communication", "BoardGames.Communication\BoardGames.Communication.csproj", "{412DA059-153E-4161-9594-1A71A31D3564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Domain", "BoardGames.Domain\BoardGames.Domain.csproj", "{B17B262D-549E-4A41-A81E-63EACFA12EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Infraestructure", "BoardGames.Infraestructure\BoardGames.Infraestructure.csproj", "{51A20381-3FC8-4EA2-B731-DC340534933F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Application", "BoardGames.Application\BoardGames.Application.csproj", "{3CEC4306-851D-4CD3-86E5-DFFA07AD4DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Exceptions", "BoardGames.Exceptions\BoardGames.Exceptions.csproj", "{822C0E78-AD1F-41F6-A61C-087C080ED1FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18AB50C6-3E92-4A9E-94A3-BB72BC06B31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AB50C6-3E92-4A9E-94A3-BB72BC06B31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AB50C6-3E92-4A9E-94A3-BB72BC06B31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AB50C6-3E92-4A9E-94A3-BB72BC06B31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412DA059-153E-4161-9594-1A71A31D3564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412DA059-153E-4161-9594-1A71A31D3564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412DA059-153E-4161-9594-1A71A31D3564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412DA059-153E-4161-9594-1A71A31D3564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17B262D-549E-4A41-A81E-63EACFA12EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17B262D-549E-4A41-A81E-63EACFA12EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17B262D-549E-4A41-A81E-63EACFA12EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17B262D-549E-4A41-A81E-63EACFA12EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A20381-3FC8-4EA2-B731-DC340534933F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A20381-3FC8-4EA2-B731-DC340534933F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A20381-3FC8-4EA2-B731-DC340534933F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A20381-3FC8-4EA2-B731-DC340534933F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CEC4306-851D-4CD3-86E5-DFFA07AD4DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CEC4306-851D-4CD3-86E5-DFFA07AD4DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CEC4306-851D-4CD3-86E5-DFFA07AD4DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CEC4306-851D-4CD3-86E5-DFFA07AD4DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822C0E78-AD1F-41F6-A61C-087C080ED1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822C0E78-AD1F-41F6-A61C-087C080ED1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822C0E78-AD1F-41F6-A61C-087C080ED1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822C0E78-AD1F-41F6-A61C-087C080ED1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
