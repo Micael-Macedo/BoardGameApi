@@ -1,6 +1,5 @@
 ﻿namespace BoardGames.Domain.EffectManade;
 
-public class EffectManadeCardGetDTO: EffectManadeCard
+public class EffectManadeCardGetDTO: EffectManadeCardDB
 {
-    public Guid id { get; set; }
 }

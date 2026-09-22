@@ -1,35 +1,39 @@
-﻿using BoardGames.Domain.EffectManade;
+﻿using BoardGames.Application.Services;
+using BoardGames.Domain.EffectManade;
+using BoardGames.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BoardGames.Controllers;
 
-public class ManadaEffectController : Controller
+public class ManadaEffectController(EffectManadeCardService service) : Controller
 {
+    private readonly EffectManadeCardService _service;
+    
     [HttpGet]
     [ProducesResponseType(typeof(List<EffectManadeCardGetDTO>), StatusCodes.Status200OK)]
     public async Task<ActionResult<EffectManadeCard>> GetList()
     {
-        return View();
+        var result = await _service.GetList();
+        return Ok(result);
     }
     
     [HttpGet]
     [ProducesResponseType(typeof(EffectManadeCardGetDTO), StatusCodes.Status200OK)]
     public async Task<ActionResult<EffectManadeCard>> GetById([FromRoute] int id)
     {
-        return View();
+        var result = await _service.GetList();
+        return Ok(result);
     }
     
     [HttpPost]
-    public async Task<ActionResult<EffectManadeCard>> Create([FromBody] EffectManadeCardCreateDTO body)
+    [ProducesResponseType(typeof(EffectManadeCardCreateResponseDTO), StatusCodes.Status201Created)]
+    public async Task<ActionResult<EffectManadeCardCreateResponseDTO>> Create([FromBody] EffectManadeCardCreateParamsDTO body)
     {
-        return View();
+        var result = await _service.Post(body);
+        return Created("",result);
     }
     
-    [HttpPut]
-    public async Task<ActionResult<EffectManadeCard>> Update([FromBody] EffectManadeCardCreateDTO body)
-    {
-        return View();
-    }
+
     
     
     

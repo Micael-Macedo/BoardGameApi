@@ -5,6 +5,6 @@ namespace BoardGames.Infraestructure.DbContext;
 
 public class BoardGameDbContext(DbContextOptions<BoardGameDbContext> options) : Microsoft.EntityFrameworkCore.DbContext(options)
 {
-    public DbSet<EffectManadeCardDTO> EffectManade => Set<EffectManadeCardDTO>();
+    public DbSet<EffectManadeCardDB> EffectManade => Set<EffectManadeCardDB>();
     
 }

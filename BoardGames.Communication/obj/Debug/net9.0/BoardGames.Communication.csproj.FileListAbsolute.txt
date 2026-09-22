@@ -1,0 +1,14 @@
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\bin\Debug\net9.0\BoardGames.Communication.deps.json
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\bin\Debug\net9.0\BoardGames.Communication.runtimeconfig.json
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\bin\Debug\net9.0\BoardGames.Communication.dll
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\bin\Debug\net9.0\BoardGames.Communication.pdb
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\BoardGames.Communication.GeneratedMSBuildEditorConfig.editorconfig
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\BoardGames.Communication.AssemblyInfoInputs.cache
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\BoardGames.Communication.AssemblyInfo.cs
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\BoardGames.Communication.csproj.CoreCompileInputs.cache
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\BoardGames.Communication.sourcelink.json
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\BoardGames.Communication.dll
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\refint\BoardGames.Communication.dll
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\BoardGames.Communication.pdb
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\BoardGames.Communication.genruntimeconfig.cache
+J:\Projetos\C#\BoardGameApi\BoardGames.Communication\obj\Debug\net9.0\ref\BoardGames.Communication.dll

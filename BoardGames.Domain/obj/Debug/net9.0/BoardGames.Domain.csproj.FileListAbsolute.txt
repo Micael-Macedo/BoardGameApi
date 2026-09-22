@@ -1,0 +1,14 @@
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\bin\Debug\net9.0\BoardGames.Domain.deps.json
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\bin\Debug\net9.0\BoardGames.Domain.runtimeconfig.json
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\bin\Debug\net9.0\BoardGames.Domain.dll
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\bin\Debug\net9.0\BoardGames.Domain.pdb
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\BoardGames.Domain.GeneratedMSBuildEditorConfig.editorconfig
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\BoardGames.Domain.AssemblyInfoInputs.cache
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\BoardGames.Domain.AssemblyInfo.cs
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\BoardGames.Domain.csproj.CoreCompileInputs.cache
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\BoardGames.Domain.sourcelink.json
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\BoardGames.Domain.dll
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\refint\BoardGames.Domain.dll
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\BoardGames.Domain.pdb
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\BoardGames.Domain.genruntimeconfig.cache
+J:\Projetos\C#\BoardGameApi\BoardGames.Domain\obj\Debug\net9.0\ref\BoardGames.Domain.dll
