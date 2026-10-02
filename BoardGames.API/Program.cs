@@ -1,6 +1,8 @@
+using BoardGames.Application.Services;
 using BoardGames.Infraestructure.DbContext;
 using Microsoft.EntityFrameworkCore;
 using BoardGames.Infraestructure.DbContext;
+using BoardGames.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -15,6 +17,9 @@ builder.Services.AddOpenApi();
 builder.Services.AddDbContext<BoardGameDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
+builder.Services.AddScoped<EffectManadeCardRepository>();
+builder.Services.AddScoped<EffectManadeCardService>();
 
 var app = builder.Build();
 

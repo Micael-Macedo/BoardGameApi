@@ -2,9 +2,9 @@
 
 public class BaseEntity
 {
-    public Guid Id { get; set; }
-    public string CreatedByUserId { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public bool IsActive { get; set; }
-    public bool IsDeleted { get; set; }
+    public int Id { get; set; }
+    public string CreatedByUserId { get; set; } = "MICAEL";
+    public DateTime CreatedAt { get; set; } = new DateTime();
+    public bool IsActive { get; set; } = true;
+    public bool IsDeleted { get; set; } = false;
 }

@@ -2,5 +2,5 @@
 
 public class EffectManadeCardCreateResponseDTO: EffectManadeCard
 {
-    public Guid Guid { get; set; }
+    public int Id { get; set; }
 }

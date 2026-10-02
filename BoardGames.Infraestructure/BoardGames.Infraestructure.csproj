@@ -20,4 +20,9 @@
       <ProjectReference Include="..\BoardGames.Domain\BoardGames.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Dependency\" />
+      <Folder Include="Migrations\" />
+    </ItemGroup>
+
 </Project>

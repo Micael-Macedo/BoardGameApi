@@ -1,4 +1,4 @@
-﻿using BoardGames.Domain.EffectManade;
+using BoardGames.Domain.EffectManade;
 using BoardGames.Infraestructure.DbContext;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,7 +6,7 @@ namespace BoardGames.Repositories;
 
 public class EffectManadeCardRepository(BoardGameDbContext context)
 {
-    private readonly BoardGameDbContext _dbContext;
+    private readonly BoardGameDbContext _dbContext = context;
     public async Task<List<EffectManadeCardGetDTO>> GetCards()
     {
         var result = await this._dbContext.EffectManade.Select(c => new EffectManadeCardGetDTO()
@@ -18,7 +18,7 @@ public class EffectManadeCardRepository(BoardGameDbContext context)
         return result;
     }
     
-    public async Task<EffectManadeCardGetDTO> GetCard(Guid id)
+    public async Task<EffectManadeCardGetDTO> GetCard(int id)
     {
         var result = await this._dbContext.EffectManade.FirstOrDefaultAsync(c => c.Id == id && c.IsActive);
 
@@ -50,7 +50,6 @@ public class EffectManadeCardRepository(BoardGameDbContext context)
             IsDeleted = false,
             CreatedAt = DateTime.Now,
             CreatedByUserId = "",
-            Id = new Guid(),
         };
         
         this._dbContext.EffectManade.Add(effectManadeCard);
@@ -58,7 +57,6 @@ public class EffectManadeCardRepository(BoardGameDbContext context)
         
         return new EffectManadeCardCreateResponseDTO()
         {
-            Guid = effectManadeCard.Id,
             Question = effectManadeCard.Question,
         };
     }

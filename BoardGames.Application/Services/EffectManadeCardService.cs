@@ -1,13 +1,13 @@
-﻿using BoardGames.Domain.EffectManade;
+using BoardGames.Domain.EffectManade;
 using BoardGames.Repositories;
 
 namespace BoardGames.Application.Services;
 
 public class EffectManadeCardService(EffectManadeCardRepository repository)
 {
-    private readonly EffectManadeCardRepository _repository;
+    private readonly EffectManadeCardRepository _repository = repository;
     
-    public async Task<EffectManadeCardGetDTO> Get(Guid id)
+    public async Task<EffectManadeCardGetDTO> Get(int id)
     {
         return await repository.GetCard(id);
     }

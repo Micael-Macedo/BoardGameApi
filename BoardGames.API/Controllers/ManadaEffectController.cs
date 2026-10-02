@@ -3,37 +3,40 @@ using BoardGames.Domain.EffectManade;
 using BoardGames.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BoardGames.Controllers;
-
-public class ManadaEffectController(EffectManadeCardService service) : Controller
+namespace BoardGames.Controllers
 {
-    private readonly EffectManadeCardService _service;
-    
-    [HttpGet]
-    [ProducesResponseType(typeof(List<EffectManadeCardGetDTO>), StatusCodes.Status200OK)]
-    public async Task<ActionResult<EffectManadeCard>> GetList()
+    [Route(("api/[controller]"))]
+    [ApiController]
+    public class ManadaEffectController(EffectManadeCardService service) : ControllerBase
     {
-        var result = await _service.GetList();
-        return Ok(result);
-    }
-    
-    [HttpGet]
-    [ProducesResponseType(typeof(EffectManadeCardGetDTO), StatusCodes.Status200OK)]
-    public async Task<ActionResult<EffectManadeCard>> GetById([FromRoute] int id)
-    {
-        var result = await _service.GetList();
-        return Ok(result);
-    }
-    
-    [HttpPost]
-    [ProducesResponseType(typeof(EffectManadeCardCreateResponseDTO), StatusCodes.Status201Created)]
-    public async Task<ActionResult<EffectManadeCardCreateResponseDTO>> Create([FromBody] EffectManadeCardCreateParamsDTO body)
-    {
-        var result = await _service.Post(body);
-        return Created("",result);
-    }
-    
+        
+        [HttpGet]
+        [ProducesResponseType(typeof(List<EffectManadeCardGetDTO>), StatusCodes.Status200OK)]
+        public async Task<ActionResult<EffectManadeCard>> GetList()
+        {
+            var result = await service.GetList();
+            return Ok(result);
+        }
+        
+        [HttpGet]
+        [Route("{id}")]
+        [ProducesResponseType(typeof(EffectManadeCardGetDTO), StatusCodes.Status200OK)]
+        public async Task<ActionResult<EffectManadeCard>> GetById([FromRoute] int id)
+        {
+            var result = await service.Get(id);
+            return Ok(result);
+        }
+        
+        [HttpPost]
+        [ProducesResponseType(typeof(EffectManadeCardCreateResponseDTO), StatusCodes.Status201Created)]
+        public async Task<ActionResult<EffectManadeCardCreateResponseDTO>> Create([FromBody] EffectManadeCardCreateParamsDTO body)
+        {
+            var result = await service.Post(body);
+            return Created("",result);
+        }
+        
 
+    }
     
     
     
