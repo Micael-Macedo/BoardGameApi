@@ -1,0 +1,79 @@
+########################################
+# Build results
+########################################
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+x64/
+x86/
+*.map
+
+########################################
+# Rider / JetBrains
+########################################
+.idea/
+*.sln.docstates
+*.DotSettings.user
+*.sln.DotSettings.user
+
+########################################
+# Visual Studio
+########################################
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.dbmdl
+*.jfm
+
+########################################
+# Visual Studio Code
+########################################
+.vscode/
+
+########################################
+# NuGet
+########################################
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!packages/build/
+
+########################################
+# Logs and temporary files
+########################################
+*.log
+*.tlog
+*.cache
+*.log.[0-9]*
+*.old
+Thumbs.db
+.vscode/ipch/
+
+########################################
+# Test results
+########################################
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*_Tests.cache
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+*.lcov
+*.trx
+
+########################################
+# OS / editor files
+########################################
+.DS_Store
+*.swp
+*~
